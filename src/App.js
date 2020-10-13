@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
+//import {BrowserRouter, Route} from 'react-router-dom'
+//import Nav1 from './NavigationBars/navBar1'
+import LandingPage from './components/landingpage'
 
-function App() {
+
+class App extends Component {
+ render(){
   return (
-    <div className="App">
-     <h1>Hello Everyone, I'm testing this out.</h1>
+
+    <div>
+      < LandingPage />
     </div>
   );
+ }
 }
 
 export default App;
