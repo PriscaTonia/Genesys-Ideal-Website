@@ -9,7 +9,10 @@ class App extends Component {
   return (
 
     <div>
+      
       < LandingPage />
+      
+      
     </div>
   );
  }
