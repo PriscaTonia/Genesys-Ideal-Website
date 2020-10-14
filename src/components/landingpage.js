@@ -5,6 +5,10 @@ import Learnable from './learnable'
 import image1 from '../Images/landingpage images/LPimg1.jpg'
 import image2 from '../Images/landingpage images/LPimg2.jpg'
 import image3 from '../Images/landingpage images/LPimg3.jpg'
+import image4 from '../Images/landingpage images/LPimg4.jpg'
+import image5 from '../Images/landingpage images/LP1.png'
+import image6 from '../Images/landingpage images/LP2.png'
+import image7 from '../Images/landingpage images/LP3.png'
 import './landingpage.css'
 
 
@@ -52,10 +56,45 @@ class LandingPage extends Component {
           </div>
 
           <div className='img'>
-            <img src ={image3} alt=''  className='LPimg2' />
+          <img src ={image3} alt=''  className='LPimg2' />
           </div>
           
         </section>
+
+        <section className='sectionA sec4'>
+         
+          <div className='img'>
+            <img src ={image4} alt=''  className='LPimg2' />
+          </div>
+          
+          <div className='sec2infoA'>
+            <h3>StartZone</h3>
+            <p className='Psec1'>The business environment is harsh for early-stage businesses. We can help you rise above it all.</p>
+            <a href='#' className='LPlink'>Learn more</a>
+          </div>
+
+
+        </section>
+
+        {
+        //   <section className='sectionA sec5'>
+         
+        //   <div className='img1'>
+        //     <img src ={image5} alt=''  className='LPimg3' />
+        //     <h3>Genesys Ignite</h3>
+        //     <img src ={image6} alt=''  className='LPimg3' />
+        //     <img src ={image7} alt=''  className='LPimg3' />
+        //   </div>
+          
+        //   <div className='sec2infoA'>
+        //     <h3>StartZone</h3>
+        //     <p className='Psec1'>The business environment is harsh for early-stage businesses. We can help you rise above it all.</p>
+        //     <a href='#' className='LPlink'>Learn more</a>
+        //   </div>
+
+
+        // </section>
+        }
 
       </div>
     </BrowserRouter>
