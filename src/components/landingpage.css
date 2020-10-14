@@ -1,108 +1,178 @@
-.section{
+.sec-one{
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     width: 100%;
-    height: 60vw;
-    top: 20vw;
-    background: #ffffff;
+    height: 66.7rem;
 }
-.secinfo{
-    padding: 50px;
-}
-.images{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-
-
-.sectionA{
-    width: 100%;
-    top: 200px;
-    height: 40vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-} 
-.sec2infoA{
+.content1{
     
-    width: 70%;
-   background-color: peru;
-    padding: 30px;
+    width: 95%;
+    height: 52.56rem;
+    left: 3rem;
+    background-color: white;
+    /* display*/
+    display: grid;
+    grid-template-rows: repeat(1fr, 2);
 }
-.sec3{
-    background-color: #EEEEEE;
+.sec1-text{
+    padding-left: 20px;
 }
+.sec-heading{
+width: 40.8rem;
+height: 9.8rem;
+left: 100px;
+top: 270px;
 
-.LPimg1{
-    width: 90vw;
-    height: 30vw;
-    top: 30vw;
-    left: 30%; 
+/* Headline 3 */
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 2.5rem;
+line-height: 2.7rem;
+
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #17255A;
+}
+.sec-para{
+    width: 29.18rem;
+    height: 4.625rem;
+    left: 100px;
+    top: 477px;
+
+    /* Subtitle 1 */
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.009375rem;
+
+    color: #273043;
+}
+.sec1-images{
+    display: grid;
+    grid-template-columns: 10% 1fr;
 }
 .LPimg11{
-    position: relative;
-    width:5vw;
-    height: 30vw;
-    left: 30%;
-    top: 10vw; 
+    width: 1.375rem;
+    height: 2.60rem;
+    justify-self: center;
+    align-self: center;
+    color: #17255A;
+}
+.LPimg1{
+    width: 100%;
+    height: 28.75rem;
+}
+
+
+
+/*Designing group css*/
+.sec{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+
+}
+.contents{
+    width: 90%;
+    height: 36.25rem;
+
+    /* display*/
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.sec-images{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
 }
 .LPimg2{
-    width: 40vw;
-    height: 30vw;
-    padding: 20px;
-    
+    width: 70%;
+    height: 70%;
 }
-.LPimg3{
-    width: 20vw;
-    height: 20vw;
+.sec-text{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.sec-heads{
+    width: 40.8rem;
+    height: 9.8rem;
+    left: 100px;
+    top: 270px;
+
+    /* Headline 3 */
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+
+    display: flex;
+    align-items: flex-end;
+
+    text-transform: capitalize;
+
+    color: #17255A;
 }
 .LPlink{
     color:#03CEA4 ;
     text-decoration: underline;
     text-transform: uppercase;
 }
-.img{
-    padding:20px ;
+.sec-three{
+    background-color: #c4c4c4;
 }
-.img1{
-    display: grid;
-    background-color: plum;
-    grid-template-columns: 1fr 1fr;
-   
-}
-h3{
-    width: 654px;
-    height: 157px;
-    left: 150px;
-    top: 270px;
 
-    font-family: Roboto;
+
+.head{
+    text-decoration: underline;
+}
+
+.sec-five{
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+.sec5-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.label{
+    display: grid;
+    grid-template-rows: 80% 10%;
+    width: 10.8rem;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 40px;
-    line-height: 100%;
-
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-
+    font-size: 1.5rem;
+    line-height: 2.7rem;
     color: #17255A;
 }
-.psec1{
-
-    width: 300px;
-    height: 100px;
-    left: 100px;
-    top: 477px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 40px;
-    letter-spacing: 0.15px;
-    color: #273043;
+.text5{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-
-/*
-
-*/
+.sec-six{
+    background-color:  #17255A;
+   
+}
+.sec6{
+    color: white;
+}

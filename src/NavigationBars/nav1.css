@@ -1,7 +1,7 @@
 
 .main-nav{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 20% 40% 30%;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -9,23 +9,23 @@
 }
 
 .logo{
-    width: 30vh;
-    height: 3vw;
+    width: 185px;
+    height: 45px;
     margin-left: 20px;
+    padding: 20px;
 }
 
 .links{
-
     list-style: none;
     display: flex;
     flex-direction: row;
     margin-right: 20%;
-    margin-left: -20%;
-    
+    margin-left: -20%; 
 }
 
 
 li{
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -39,11 +39,22 @@ a{
 
 .txt1{
     font-size: 12px;
+    font-family: 'Nunito', sans-serif;
 }
-.txt2{
-    border-radius: 5px;
-    border: 1px solid black;
-    margin-left: 40px;
-    padding: 5px;
+.nav-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
-/*  */
+button{
+
+    padding: 10px;
+    width: 109px;
+    left: 1281px;
+    /* Space Cadet */
+
+    border: 1px solid #17255A;
+    box-sizing: border-box;
+    border-radius: 4px;
+    }

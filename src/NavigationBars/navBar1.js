@@ -1,5 +1,5 @@
 import React from 'react'
-import genesysLogo from '../Images/landingpage images/Genesys Logo.png'
+import genesysLogo from '../Images/landingpage images/Genesys Logo.svg'
 import './nav1.css'
 
 const Nav1 = () => {
@@ -18,7 +18,7 @@ const Nav1 = () => {
 
                 <div className='nav-text'>
                     <span className='txt1'>build a product with</span>
-                    <span className='txt2'>DEVSTUDIO</span>
+                    <button>DEVSTUDIO</button>
                 </div>
 
         </nav>
