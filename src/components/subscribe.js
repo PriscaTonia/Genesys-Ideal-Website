@@ -9,7 +9,7 @@ const Subscribe = () => {
     return(
         <div className='subscribe'>
                 
-                <span className='arrow'><a href='/'><img src={topArrow} alt='' /></a></span>
+                <span className='Arrow'><a href='/'><img src={topArrow} alt='' /></a></span>
                 <div className='content'>
                     <h3 className='text'>stay up to date on what we are doing and new learning opportunities.</h3>
                     <form>

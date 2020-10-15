@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: 10% 90%;
 }
-.arrow{
+.Arrow{
     height: 19.125rem;
     display: flex;
     align-items: center;

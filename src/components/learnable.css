@@ -1,0 +1,254 @@
+.notification{
+    width: 100%;
+    height: 242px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #eac435;
+}
+.notify-content{
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+}
+.click{
+    margin-top: 1.875rem;
+}
+.notify-content h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 1.875rem;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #17255A;
+}
+h4 a{
+    text-decoration: underline;
+}
+.notify-content p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #17255A;
+}
+.Hero{
+
+    width: 100%;
+    height: 1225px;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+
+}
+.arrow{
+    width: 22px;
+    height: 41px;
+    display: flex;
+    justify-self: center;
+    margin-top: 250px;
+}
+.explore{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.exp1{
+    width: 250px;
+    height: 250px;
+}
+.exp2{
+    width: 250px;
+    height: 250px;
+}
+.video{
+    position: relative;
+    width: 100%;
+    height: 460px;
+    margin-top: -100px;
+    z-index: -1;
+}
+.video-coont{
+    position: absolute;
+}
+.Hero-text{
+    width: 513px;
+    height: 352px;
+    padding-left: 40px;
+}
+.media-sec{
+    display: grid;
+    grid-template-rows: 80% 20%;
+    margin-top: -100px;
+}
+.Hero-media{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    justify-self: right;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.statistics{
+    background-color: #EEEEEE;
+    z-index: -2;
+    width: 100%;
+    height: 536px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: flex-end;
+    margin-top: -310px;
+}
+.stat{
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    margin-bottom: 100px;
+    
+    
+}
+.numbers{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #03CEA4;
+}
+h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 106px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -1.5px;
+    color: #17255A;
+}
+p{
+    color: #17255A;
+}
+.learn-reuse{
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.learn-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+   
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+
+    display: flex;
+    align-items: flex-end;
+
+    text-transform: capitalize;
+
+    color: #17255A;
+}
+
+.boy{
+    border-radius: 356px;
+    background-color: #03CEA4;
+    width: 452px;
+    height: 452px;
+    align-self: center;
+}
+.learn-img{
+    display: flex;
+    justify-content: center;
+
+}
+.img{
+    width: 80%;
+}
+.secA{
+    background-color: #EEEEEE;
+}
+.multi, .multi2{
+    height: 1215px;
+}
+.multi2{
+    background-color: #EEEEEE;
+}
+.colored-divs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 60px;
+    grid-gap: 0;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    text-transform: capitalize;
+
+}
+span{
+    color: #17255A;
+}
+.learn-content a{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #03CEA4;
+}
+.box{
+    width: 250px;
+    height: 300px;
+    margin: 0;
+    padding: 20px;
+}
+.one {
+ 
+    background-color: #17255A;
+}
+.two{
+  
+    background-color: #03CEA4;
+}
+.three{
+    color: #17255A;
+    background-color: #EAC435;
+}
+.four{
+
+    background-color: #2D1E2F;
+}
+.five{
+  
+    background-color: #273043;
+}
+.six{
+
+    background-color: #F5772F;
+}
+.TWO{
+    background-color: #F5772F;
+}
+.FOUR{
+    background-color: #273043;
+}
+.FIVE{
+    background-color: #E13F29;
+}
+.SIX{
+    background-color:#03CEA4;
+}

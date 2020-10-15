@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {BrowserRouter, Route} from 'react-router-dom'
 import Nav1 from '../NavigationBars/navBar1'
 import Subscribe from './subscribe';
-import Learnable from './learnable'
+import Footer from './footer'
 import image1 from '../Images/landingpage images/LPimg1.jpg'
 import image2 from '../Images/landingpage images/LPimg2.jpg'
 import image3 from '../Images/landingpage images/LPimg3.jpg'
@@ -22,7 +22,9 @@ class LandingPage extends Component {
 
       <div className="App">
         <Nav1 />
-        <Route exact path='/learnable' Component={Learnable} />
+        {
+          //<Route exact path='/learnable' Component={Learnable} />
+        }
 
         <section className='sec-one'>
           <div className='content1'>
@@ -123,6 +125,7 @@ class LandingPage extends Component {
         </section>
        
         <Subscribe />
+        < Footer />
       </div>
     </BrowserRouter>
     
