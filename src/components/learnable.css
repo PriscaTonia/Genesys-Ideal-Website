@@ -56,12 +56,12 @@ h4 a{
     justify-content: space-between;
 }
 .exp1{
-    width: 250px;
-    height: 250px;
+    width: 270px;
+    height: 270px;
 }
 .exp2{
-    width: 250px;
-    height: 250px;
+    width: 270px;
+    height: 270px;
 }
 .video{
     position: relative;
@@ -151,19 +151,19 @@ p{
     padding: 70px;
    
 }
-h3{
+h3, h4{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 2.5rem;
     line-height: 2.7rem;
-
     display: flex;
     align-items: flex-end;
-
     text-transform: capitalize;
-
     color: #17255A;
+}
+h4{
+    font-size: 2rem;
 }
 
 .boy{
@@ -187,7 +187,7 @@ h3{
 .multi, .multi2{
     height: 1215px;
 }
-.multi2{
+.multi2, .journal{
     background-color: #EEEEEE;
 }
 .colored-divs{
@@ -205,10 +205,14 @@ h3{
 span{
     color: #17255A;
 }
-.learn-content a{
+.learn-content a, .faq-content a, .journal a{
     text-transform: uppercase;
     text-decoration: underline;
     color: #03CEA4;
+}
+.faq-content a, .journal a{
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
 }
 .box{
     width: 250px;
@@ -252,3 +256,108 @@ span{
 .SIX{
     background-color:#03CEA4;
 }
+.play-btn{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -300px;
+    
+}
+.img2{
+    position: relative;
+   
+}
+.secB-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -80px;
+}
+.secB {
+    background-color: #F5772F;
+    
+}
+.secB-text h3  {
+    color: white;
+}
+.secB-text p  {
+    color: white;
+}
+.secC{
+    background-color: #17255A;
+    
+}
+.secC-text h3  {
+    color: white;
+}
+.secC-text p  {
+    color: white;
+}
+
+.faq{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    
+}
+.faq h3{
+    text-transform: capitalize;
+    padding: 2rem;
+}
+.faq-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    
+
+}
+.faq-content select{
+    width: 500px;
+    height: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px;
+    border-style: none;
+    border-bottom: 1px solid #17255A;
+}
+.journal{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.journal-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+.item-content{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.item-content a{
+    margin-bottom: 2rem;
+}
+.mentions{
+    height: 243px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+}
+.mentions span{
+    justify-self: center;
+    align-self: center;
+    text-decoration: underline;
+    color: #273043;
+    font-weight: bold;
+}
+.mentions-images{
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1rem;
+}
+
+/* */

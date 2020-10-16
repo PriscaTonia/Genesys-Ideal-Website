@@ -11,12 +11,9 @@ class App extends Component {
   return (
 
     <div>
-     
-     <Learnable />
- 
-   
+      <Learnable />
      {
-      // < LandingPage />
+       // < LandingPage />
      }
       
     </div>

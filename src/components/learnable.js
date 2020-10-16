@@ -6,7 +6,21 @@ import boy from '../Images/learnable images/Cutout 1.svg'
 import photo1 from '../Images/learnable images/Photo (4).jpg'
 import photo from '../Images/learnable images/Photo (3).jpg'
 import photo2 from '../Images/learnable images/Photo (5).jpg'
-import play from '../Images/learnable images/Play.jpg'
+import play from '../Images/learnable images/Play.svg'
+import GrpPhoto1 from '../Images/learnable images/Photos.jpg'
+import GrpPhoto2 from '../Images/learnable images/Photos (1).jpg'
+import GrpPhoto3 from '../Images/learnable images/Photos (2).jpg'
+import photo3 from '../Images/learnable images/image 23.jpg'
+import photo4 from '../Images/learnable images/image 24.jpg'
+import photo5 from '../Images/learnable images/image 25.jpg'
+import photo6 from '../Images/learnable images/image 26.jpg'
+import photo7 from '../Images/learnable images/image 27.jpg'
+import photo8 from '../Images/learnable images/image 28.jpg'
+import photo9 from '../Images/learnable images/image 29.jpg'
+import photo10 from '../Images/learnable images/image 30.jpg'
+import photo11 from '../Images/learnable images/image 31.jpg'
+import Subscribe from './subscribe'
+import Footer from './footer'
 import explore1 from '../Images/learnable images/Explore option.svg'
 import explore2 from '../Images/learnable images/Explore option (1).svg'
 import './learnable.css'
@@ -146,23 +160,145 @@ const Learnable = () => {
                 </div>
             </section>
 
-            <section className='learn-reuse'>
-                <div className='learn-img'>
+            <section className='learn-reuse secB'>
+                <div className='secB-img'>
                     <div>
-                        <img src={photo2} alt='' className='img' />
+                        <img src={photo2} alt='' className='img img2' />
                         <img src={play} alt='' className='play-btn' />
                     </div>
                 </div>
-                <div className='learn-content'>
-                    <h3>Who is Eligible?</h3>
-                    <p>To be a participant of lernable, you need to be a young and passionate person interested in launching a super tech career. You will need to have foundational knowledge in whatever learning path you are applying for and be available for the six month duration of the program.</p>
-
-                    <p> To become a part of the Genesys family, you must express some of the qualities we consider important. You are someone that takes responsibilities and initiatives. You will also express the ability to produce quality stuff in good time with high consistency. </p>
+                <div className='learn-content secB-text'>
+                    <h3>our culture</h3>
+                    <p>Our culture are the unspoken things that make us who we are at Genesys. To become one of us, you need to be like the rest of us. We believe that excellence is a culture, and we are committed to a philosophy of consistent improvement in everything we do. We are passionate, candid and we trust in the power of collaboration.</p>
 
                 </div>
                 
             </section>
             
+            <section className='learn-reuse '>
+                
+                <div className='learn-content'>
+                    <h3>learning can be fun</h3>
+                    <p>We believe learning should be a fun experience. For this reason, we don’t do all the learning in the classroom.</p>
+                    <p>The Learnable experience can not be complete without the bag of fun times which you’ll have. To us, every task is an opportunity to have some fun. But we do well to throw in a good number of activities to add to this. You will find yourself partaking in a lot of healthy activities such as cooking, sports, music, hangouts, and even random dates.</p>
+                    <p>Trust us when we say we know how to have fun.</p>
+                </div>
+
+                <div className='learn-img'>
+                    <img src={GrpPhoto1} alt='' className='img' />
+                </div>
+                
+            </section>
+
+            <section className='learn-reuse secA'>
+                <div className='learn-img'>
+                    <img src={GrpPhoto2} alt='' className='img' />
+                </div>
+                <div className='learn-content'>
+                    <h3>learn from the experts</h3>
+                    <p>As a learnable intern, you will be learning from the best software developers and product designers our industry has to offer. You will spend the first 3 months in the classroom with industry experts who have a wealth of experience from developing amazing products for various customers in our industry.</p>
+                </div>
+            </section>
+
+            <section className='learn-reuse '>
+                <div className='learn-content'>
+                    <h3>Learning doesn’t always have to be in the classroom</h3>
+                    <p>We have designed other learning activities that aren’t classroom-based. You will learn how to be a better person, how to have good conversations, how to work better with people and most importantly, how to lead other people. Hey! We’ll even teach you how to run a business during the Learnable Business Sessions.</p>
+                </div>
+                <div className='learn-img'>
+                    <img src={GrpPhoto3} alt='' className='img' />
+                </div>
+            </section>
+
+            <section className='learn-reuse secC '>
+                <div className='learn-img'>
+                    <img src={photo2} alt='' className='img' />
+                </div>
+                <div className='learn-content secC-text'>
+                    <h3>apply your knowledge</h3>
+                    <p>Before you’re done with Learnable, you will apply everything you’ve learned. You’ll be part of a team made up of 2 designers and 4 developers. You’ll get to work alongside the Genesys team on projects and we’ll teach you how “the sauce” is made. By combining technology, design, and great ideas, your team will have the unique opportunity to collaborate with the Genesys team to bring your own concept to life, from the first pen sketches to the final functioning product. You’ll then get to show off your special project to everyone.</p>
+                    <a href='#'>learn more</a>
+                </div>  
+            </section>
+
+            <section className='faq'>
+                <h3>faq</h3>
+                <div className='faq-content'>
+                    <select>
+                        <option >How many people can attend a course?</option>
+                    </select>
+                    <select>
+                        <option>What's the learning experience like?</option>
+                    </select>
+                    <select>
+                        <option>Who are the coaches?</option>
+                    </select>
+                    <select>
+                        <option>How far in advance should we book?</option>
+                    </select>
+                    <select>
+                        <option>Can you customize your courses?</option>
+                    </select>
+                    <a href='#' >see all</a>
+                </div>
+            </section>
+
+            <section className='journal'>
+                <h3>journal</h3>
+                <a href='#'>view all</a>
+                <div className='journal-content'>
+                    <div className='journal-items'>
+                        <img src={photo3} alt='' />
+                        <div className='item-content'>
+                            <a href='#'>inspiration</a>
+                            <h4>Learn Design Thinking like a Pro and Build Projects that People will care about</h4>
+                            <p>David Mong, Apr 9, 2020</p>
+                        </div>
+
+                    </div>
+                    <div className='journal-items'>
+                        <img src={photo4} alt='' />
+                        <div className='item-content'>
+                            <a href='#'>inspiration</a>
+                            <h4>Learn Design Thinking like a Pro and Build Projects that People will care about</h4>
+                            <p>David Mong, Apr 9, 2020</p>
+                        </div>
+                        
+                    </div>
+                    <div className='journal-items'>
+                        <img src={photo5} alt='' />
+                        <div className='item-content'>
+                            <a href='#'>inspiration</a>
+                            <h4>Learn Design Thinking like a Pro and Build Projects that People will care about</h4>
+                            <p>David Mong, Apr 9, 2020</p>
+                        </div>
+                        
+                    </div>
+                    <div className='journal-items'>
+                        <img src={photo6} alt='' />
+                        <div className='item-content'>
+                            <a href='#'>inspiration</a>
+                            <h4>Learn Design Thinking like a Pro and Build Projects that People will care about</h4>
+                            <p>David Mong, Apr 9, 2020</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section className='mentions'>
+                <span>Mentioned in</span>
+                <div className='mentions-images'>
+                    <img src={photo7} alt='' />
+                    <img src={photo8} alt='' />
+                    <img src={photo9} alt='' />
+                    <img src={photo10} alt='' />
+                    <img src={photo11} alt='' />
+                </div>
+            </section>
+
+            <Subscribe />
+            <Footer />
         </div>
     )
 }

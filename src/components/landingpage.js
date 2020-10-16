@@ -11,7 +11,9 @@ import image5 from '../Images/landingpage images/img2.jpg'
 import image6 from '../Images/landingpage images/img3.jpg'
 import image7 from '../Images/landingpage images/img4.jpg'
 import image8 from '../Images/landingpage images/Photo.jpg'
+import topArrow from '../Images/Go back to Top.svg'
 import './landingpage.css'
+import './subscribe.css'
 
 
 
@@ -124,7 +126,23 @@ class LandingPage extends Component {
           </div>
         </section>
        
-        <Subscribe />
+        <div className='subscribe'>
+                
+                <span className='Arrow'><a href='/'><img src={topArrow} alt='' /></a></span>
+                <div className='subs-content'>
+                    <h3 className='text'>stay up to date on what we are doing and new learning opportunities.</h3>
+                    <form>
+                        <div className='input'>
+                            <div className='inputs'>
+                                <input type='text' placeholder='Your Email'/>
+                                <label><a href='/' >view privacy policy</a></label>
+                            </div>
+                        </div>
+                        <span className='button'><button>Subscribe</button></span>
+                    </form>
+                </div>
+
+        </div>
         < Footer />
       </div>
     </BrowserRouter>
