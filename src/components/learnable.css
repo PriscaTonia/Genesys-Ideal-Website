@@ -27,7 +27,7 @@ h4 a{
     text-decoration: underline;
 }
 .notify-content p{
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -124,7 +124,7 @@ h4 a{
     color: #03CEA4;
 }
 h1{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
