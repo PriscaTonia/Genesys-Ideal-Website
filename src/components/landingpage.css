@@ -19,33 +19,26 @@
     padding-left: 20px;
 }
 .sec-heading{
-width: 40.8rem;
-height: 9.8rem;
-left: 100px;
-top: 270px;
+    width: 40.8rem;
+    height: 9.8rem;
+    left: 100px;
+    top: 270px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 2.7rem;
 
-/* Headline 3 */
-
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 900;
-font-size: 2.5rem;
-line-height: 2.7rem;
-
-display: flex;
-align-items: center;
-text-transform: capitalize;
-
-color: #17255A;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #17255A;
 }
 .sec-para{
     width: 29.18rem;
     height: 4.625rem;
     left: 100px;
     top: 477px;
-
-    /* Subtitle 1 */
-
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -84,9 +77,6 @@ color: #17255A;
 .contents{
     width: 90%;
     height: 36.25rem;
-
-    /* display*/
-
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -109,20 +99,14 @@ color: #17255A;
     height: 9.8rem;
     left: 100px;
     top: 270px;
-
-    /* Headline 3 */
-
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 2.5rem;
     line-height: 2.7rem;
-
     display: flex;
     align-items: flex-end;
-
     text-transform: capitalize;
-
     color: #17255A;
 }
 .LPlink{
@@ -176,3 +160,7 @@ color: #17255A;
 .sec6{
     color: white;
 }
+
+
+@media screen and (min-width: 375px){}
+    

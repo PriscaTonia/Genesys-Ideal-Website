@@ -22,7 +22,13 @@
     margin-right: 20%;
     margin-left: -20%; 
 }
-
+.show{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20%;
+    margin-left: -20%; 
+}
 
 li{
     font-family: 'Nunito', sans-serif;
@@ -49,7 +55,7 @@ a:active{
     align-items: center;
     justify-content: space-evenly;
 }
-button{
+.nav-text button{
 
     padding: 10px;
     width: 109px;
@@ -59,4 +65,60 @@ button{
     border: 1px solid #17255A;
     box-sizing: border-box;
     border-radius: 4px;
+}
+.hamburger{
+    width: 50px;
+    border: 0;
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+.hamburger:focus{
+    outline: none;
+}
+input{
+    display: none;
+}
+
+
+    
+@media(max-width: 767px){
+
+    .main-nav{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+       
+    }
+ 
+    .logo{
+        width: 156px;
+        height: 36px;
+        padding: 20px;
+        margin-left: 0;
+    }
+    .links{
+        display: none;
+        width: 100%;
+       
+    }
+    .nav-text{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        color: black;
+    }
+    .show{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        text-decoration: underline;
+   
+    }
     }

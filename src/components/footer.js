@@ -33,6 +33,10 @@ const Footer = () => {
                                 <a href='#' className='F-a'>head to devstudio</a>
                             </div>
                         </section>
+                        <section className='contact-us2'>
+                            <p>Our Local Campus center: Kilometer 7, Enugu/Port Harcourt, Expressway, Centenary City, Enugu. Nigeria</p>
+                            <a href='#' className='F-a'>get in touch</a>
+                        </section>
                     </div>
                     <div className='footer-social'>
                         

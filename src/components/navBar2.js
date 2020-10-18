@@ -1,12 +1,34 @@
-import React from 'react'
+import React, {Component} from 'react'
 import './nav2.css'
 
-const Nav2 = () => {
-    return(
+class Nav2 extends Component{
+    state={
+
+        className: 'learnable-links'
+      }
+    
+    handleClick = () =>{
+        this.setState({
+          className:'learnable-show'
+        });
+        let className = this.state.className
+        if(className=== 'learnable-show'){
+            this.setState({
+                className: 'learnable-links'
+            })
+        } 
+        
+      }
+    render(){
+        return(
        
             <nav className='sub-nav'>
 
-                <ul className='learnable-links'>
+                    <button className='L-hamburger' onClick={this.handleClick}>
+                        <i className='fa fa-bars'></i>
+                    </button>
+
+                <ul className={this.state.className}>
                     <li><a href='/learnable' className='L-a'>home</a></li>
                     <li><a href='/softwareDev' className='L-a'>software developers</a></li>
                     <li><a href='/productDes' className='L-a'>product design</a></li>
@@ -19,6 +41,7 @@ const Nav2 = () => {
             </nav>
         
     )
+    }
 }
 
 export default Nav2;

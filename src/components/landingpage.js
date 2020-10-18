@@ -20,22 +20,20 @@ class LandingPage extends Component {
   return (
     <BrowserRouter>
 
-      <div className="App">
+      <div className="LandingPage">
+      
         
-        {
-          //<Route exact path='/learnable' Component={Learnable} />
-        }
 
         <section className='sec-one'>
           <div className='content1'>
             <div className='sec1-text'>
 
               <h3 className='sec-heading'>genesys provides opportunities for young nigerian techies and opportunities to grow and innovate.</h3>
-              <p className='sec-para'>We understand that opportunities are scarce in these parts. We are either creating or exposing our people to these opportunities.</p>
+              <p className='sec-para1 sec-para'>We understand that opportunities are scarce in these parts. We are either creating or exposing our people to these opportunities.</p>
             
             </div>
             <div className='sec1-images'>
-              <i class="fa fa-long-arrow-down LPimg11 fa-5x" aria-hidden="true"></i>
+              <i className="fa fa-long-arrow-down LPimg11 fa-5x" aria-hidden="true"></i>
               <img src={image1} alt='' className='LPimg1' />
               
             </div>
@@ -60,7 +58,7 @@ class LandingPage extends Component {
 
         <section className='sec-three sec'>
           <div className='contents'>
-            
+          
             <div className='sec-text'>
               <h3 className='sec-heads'>agora</h3>
               <div className='sec-text-content'>
@@ -68,7 +66,7 @@ class LandingPage extends Component {
                 <a href='#' className='LPlink'>Learn more</a>
               </div>
             </div>
-            <div className='sec-images'>
+            <div className='sec-images sec1-images'>
               <img src ={image3} alt=''  className='LPimg2' />
             </div>
 
@@ -93,18 +91,18 @@ class LandingPage extends Component {
 
         <section className='sec-five '>
           <div className='contents'>
-      
-            <div className='sec5-images'>
-                <img src ={image5} alt=''  className='LPimg3' />
-                <h3 className='sec-heads head'>Genesys <br /> Ignite</h3>
+
+          <div className='sec5-images'>
+                <img src ={image5} alt=''  className='LPimg3 ' />
+                <h3 className='sec-heads head '>Genesys <br /> Ignite</h3>
                 <div className='label'><img src ={image6} alt=''  className='LPimg3' /> <a href=''>Codeville</a></div>
                 <div className='label'><img src ={image7} alt=''  className='LPimg3' /><a href=''>pink summer of code</a></div>
             </div>
-
-            <div className='sec-text text5'>              
+            <div className='sec-text '>              
                 <h3 className='sec-heads'>other things we do</h3>        
             </div>
-            </div> 
+
+          </div> 
         </section>
 
         <section className='sec-six sec'>
@@ -130,13 +128,16 @@ class LandingPage extends Component {
                 <div className='subs-content'>
                     <h3 className='text'>stay up to date on what we are doing and new learning opportunities.</h3>
                     <form>
-                        <div className='input'>
+                            <div className='inputs-mobile'>
+                              <textarea type='text' placeholder='Your Email'/>
+                              <span className='button'><button>Subscribe</button></span>
+                              <label><a href='/' >view privacy policy</a></label>
+                            </div>
                             <div className='inputs'>
-                                <input type='text' placeholder='Your Email'/>
+                                <textarea type='text' placeholder='Your Email'/>
                                 <label><a href='/' >view privacy policy</a></label>
                             </div>
-                        </div>
-                        <span className='button'><button>Subscribe</button></span>
+                        <span className='button btn'><button>Subscribe</button></span>
                     </form>
                 </div>
 
