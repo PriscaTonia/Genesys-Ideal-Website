@@ -57,7 +57,7 @@ button{
     margin-left: 1rem;
 }
 .journal-journal{
-    padding: 1.5rem;
+    padding-top: 1.5rem;
 }
 .journal-content a, .journal-snippet a{
     text-transform: uppercase;

@@ -245,7 +245,7 @@ const Learnable = () => {
 
             <section className='Journal'>
                 <h3>journal</h3>
-                <a href='#'>view all</a>
+                <a href='#' className='JJ'>view all</a>
                 <div className='journal-content'>
                     <div className='journal-items'>
                         <img src={photo3} alt='' />

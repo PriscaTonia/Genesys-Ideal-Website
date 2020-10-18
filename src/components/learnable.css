@@ -25,6 +25,7 @@
 }
 h4 a{
     text-decoration: underline;
+    color: #17255A;
 }
 .notify-content p{
     font-family: 'Nunito', sans-serif;
@@ -74,9 +75,12 @@ h4 a{
     position: absolute;
 }
 .Hero-text{
-    width: 513px;
+    width: 650px;
     height: 352px;
     padding-left: 40px;
+}
+.Hero-text p{
+    width: 50%;
 }
 .media-sec{
     display: grid;
@@ -322,15 +326,27 @@ span{
     border-style: none;
     border-bottom: 1px solid #17255A;
 }
+.Journal{
+    background-color: #EEEEEE;
+}
 .journal{
     display: flex;
     flex-direction: column;
     padding: 2rem;
 }
+.Journal h3, .Journal .JJ{
+    padding-left: 2rem;
+    padding-top: 2rem;
+   
+}
+.Journal .JJ{
+    padding-bottom: 2rem;
+}
 .journal-content{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
+    padding: 1rem;
 }
 .item-content{
     display: flex;
@@ -338,7 +354,8 @@ span{
 
 }
 .item-content a{
-    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 .mentions{
     height: 243px;

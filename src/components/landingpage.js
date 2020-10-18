@@ -10,6 +10,8 @@ import image6 from '../Images/landingpage images/img3.jpg'
 import image7 from '../Images/landingpage images/img4.jpg'
 import image8 from '../Images/landingpage images/Photo.jpg'
 import topArrow from '../Images/Go back to Top.svg'
+import Nav1 from './navBar1'
+import Learnable from './learnable'
 import './landingpage.css'
 import './subscribe.css'
 
@@ -21,8 +23,7 @@ class LandingPage extends Component {
     <BrowserRouter>
 
       <div className="LandingPage">
-      
-        
+ 
 
         <section className='sec-one'>
           <div className='content1'>
@@ -96,7 +97,7 @@ class LandingPage extends Component {
                 <img src ={image5} alt=''  className='LPimg3 ' />
                 <h3 className='sec-heads head '>Genesys <br /> Ignite</h3>
                 <div className='label'><img src ={image6} alt=''  className='LPimg3' /> <a href=''>Codeville</a></div>
-                <div className='label'><img src ={image7} alt=''  className='LPimg3' /><a href=''>pink summer of code</a></div>
+                <div className='label'><img src ={image7} alt=''  className='LPimg3' /><a href=''>Pink summer of code</a></div>
             </div>
             <div className='sec-text '>              
                 <h3 className='sec-heads'>other things we do</h3>        

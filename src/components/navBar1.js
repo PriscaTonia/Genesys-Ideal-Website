@@ -1,5 +1,5 @@
-
 import React, {Component} from 'react'
+import { Link } from 'react-router-dom'
 import genesysLogo from '../Images/landingpage images/Genesys Logo.svg'
 import './nav1.css'
 
@@ -29,13 +29,12 @@ class Nav1 extends Component {
             <nav className='main-nav'>
                     <img src={genesysLogo} alt='Genesys Logo' className='logo' />
 
-
                     <button className='hamburger' onClick={this.handleClick}>
                         <i className='fa fa-bars'></i>
                     </button>
 
                     <ul className= {this.state.className}>
-                        <li><a href='/learnable' className='current'>LEARNABLE</a></li>
+                        <li><Link to='/learnable' className='current'>LEARNABLE</Link></li>
                         <li><a href='/'>AGORA</a></li>
                         <li><a href='/'>STARTZONE</a></li>
                         <li><a href='/'>ABOUT</a></li>

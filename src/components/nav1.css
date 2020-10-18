@@ -30,7 +30,7 @@
     margin-left: -20%; 
 }
 
-li{
+ li{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -38,9 +38,10 @@ li{
     color: #273043;
     margin-left: 50px;
 }
-
-a{
+ 
+.main-nav a{
     text-decoration: none;
+    color: #273043;
 }
 a:active{
     color: orange;

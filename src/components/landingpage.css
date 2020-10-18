@@ -147,6 +147,10 @@
     line-height: 2.7rem;
     color: #17255A;
 }
+.label a{
+    color:#17255A;
+    text-transform: none;
+}
 .text5{
     width: 70%;
     display: flex;

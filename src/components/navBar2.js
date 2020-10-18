@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import { Link } from 'react-router-dom'
 import './nav2.css'
 
 class Nav2 extends Component{
@@ -29,12 +30,12 @@ class Nav2 extends Component{
                     </button>
 
                 <ul className={this.state.className}>
-                    <li><a href='/learnable' className='L-a'>home</a></li>
-                    <li><a href='/softwareDev' className='L-a'>software developers</a></li>
-                    <li><a href='/productDes' className='L-a'>product design</a></li>
-                    <li><a href='/apply' className='L-a'>apply</a></li>
-                    <li><a href='/journal' className='L-a'>journal</a></li>
-                    <li><a href='/faq' className='L-a'>faq</a></li>
+                    <li><Link to='/learnable' className='L-a'>home</Link></li>
+                    <li><Link to='/softwareDev' className='L-a'>software developers</Link></li>
+                    <li><Link to='/productDes' className='L-a'>product design</Link></li>
+                    <li><Link to='/apply' className='L-a'>apply</Link></li>
+                    <li><Link to='/journal' className='L-a'>journal</Link></li>
+                    <li><Link to='/faq' className='L-a'>faq</Link></li>
                 </ul>
 
 

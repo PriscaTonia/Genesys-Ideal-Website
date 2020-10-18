@@ -59,9 +59,10 @@ textarea{
 ::placeholder{
     color: #273043;
 }
-a{
+label a{
     color:  #273043;
     text-transform: capitalize;
+    text-decoration: none;
 }
 button{
     background-color: transparent;
