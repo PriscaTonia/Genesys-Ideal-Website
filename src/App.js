@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Nav1 from './components/navBar1'
-import Nav2 from './components/navBar2'
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import LandingPage from './components/landingpage'
 import SoftwareDev from './components/softwareDev'
@@ -8,7 +7,6 @@ import ProductDes from './components/productDes'
 import Apply from './components/apply'
 import Journal from './components/journal'
 import FAQ from './components/faq'
-
 import Learnable from './components/learnable';
 
 
