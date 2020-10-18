@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 //import {BrowserRouter, Route} from 'react-router-dom'
-import Learnable from './components/learnable'
+import Nav1 from './components/navBar1'
 import LandingPage from './components/landingpage'
-import ProductDes from './components/productDes'
+
 
 
 
@@ -11,14 +11,9 @@ class App extends Component {
   return (
 
     <div>
-      
-      <ProductDes />
-
-     {
-       // < LandingPage />
-       //<Learnable />
-     }
-      
+      <Nav1 />
+     < LandingPage />
+ 
     </div>
   );
  }

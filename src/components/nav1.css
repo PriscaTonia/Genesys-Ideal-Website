@@ -36,7 +36,9 @@ li{
 a{
     text-decoration: none;
 }
-
+a:active{
+    color: orange;
+}
 .txt1{
     font-size: 12px;
     font-family: 'Nunito', sans-serif;

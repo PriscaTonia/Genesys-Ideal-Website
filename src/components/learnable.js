@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav2 from '../NavigationBars/navBar2'
+import Nav2 from './navBar2'
 import arrow from '../Images/learnable images/Skip to Next Section.svg'
 import video from '../Images/learnable images/Video.png'
 import boy from '../Images/learnable images/Cutout 1.svg'
@@ -243,7 +243,7 @@ const Learnable = () => {
                 </div>
             </section>
 
-            <section className='journal'>
+            <section className='Journal'>
                 <h3>journal</h3>
                 <a href='#'>view all</a>
                 <div className='journal-content'>

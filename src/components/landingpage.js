@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import {BrowserRouter, Route} from 'react-router-dom'
-import Nav1 from '../NavigationBars/navBar1'
-import Subscribe from './subscribe';
 import Footer from './footer'
 import image1 from '../Images/landingpage images/LPimg1.jpg'
 import image2 from '../Images/landingpage images/LPimg2.jpg'
@@ -23,7 +21,7 @@ class LandingPage extends Component {
     <BrowserRouter>
 
       <div className="App">
-        <Nav1 />
+        
         {
           //<Route exact path='/learnable' Component={Learnable} />
         }

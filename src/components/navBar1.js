@@ -9,7 +9,7 @@ const Nav1 = () => {
                 <img src={genesysLogo} alt='Genesys Logo' className='logo' />
 
                 <ul className='links'>
-                    <li><a href='/learnable'>LEARNABLE</a></li>
+                    <li><a href='/learnable' className='current'>LEARNABLE</a></li>
                     <li><a href='/'>AGORA</a></li>
                     <li><a href='/'>STARTZONE</a></li>
                     <li><a href='/'>ABOUT</a></li>

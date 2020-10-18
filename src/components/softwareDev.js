@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav2 from '../NavigationBars/navBar2'
+import Nav2 from './navBar2'
 import Subscribe from './subscribe'
 import Footer from './footer'
 import boy from '../Images/learnable images/Cutout 1.svg'
